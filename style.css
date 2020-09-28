@@ -1,0 +1,188 @@
+body {
+    font-size: 15pt;
+    font-family: 'Nunito', sans-serif;
+}
+
+body * {
+  transition: 0.2s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.s1 {
+  overflow: hidden;
+  
+  background: #C4C4C4;
+}
+
+
+.s2 {
+  background-color: #DADBDF;
+}
+
+  
+
+
+.pcode {
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+
+a {
+  color: #222;
+  font-weight: semi-bold;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.dir {
+  margin:0;
+  background: #fff;
+  border-radius: 5px 5px 0 0;
+}
+
+.dir ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.theme {
+  display: flex;
+  justify-content: space-evenly;
+  margin :20px;
+}
+
+.theme-dot {
+  background-color: #222;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+}
+
+#lightmode {
+  background-color: #DFE0EA;
+}
+
+#darkmode {
+  background-color: #3C3D43;
+}
+
+.dir li {
+  padding: 6px;
+  display: inline;
+}
+
+.p {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+#p {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  display: block;
+}
+
+#l {
+  margin: 0 auto;
+  width: 300px;
+  height: 100px;
+  display: block;
+}
+ 
+.stack {
+  font-weight: light;
+  text-align: center;
+}
+
+.skills {
+  display: flex;
+  padding: 10px;
+  justify-content: space-evenly;
+  background: #DAD0AA;
+}
+
+.skills li{
+  color: black;
+}
+
+.prev {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+#pre {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  overflow: hidden;
+  position: relative;
+  padding-left: 30px;
+  background-color: #3A3B43;
+  width: 300px;
+  height:50px;
+  border-radius: 40% 10% / 10% 30%;
+}
+
+
+#bio {
+  font-family: 'balsamiq sans', cursive;
+}
+
+#bio2 {
+  font-family: monospace;
+}
+
+h1 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: light;
+}
+
+li {
+  color :black;
+  list-style: inside;
+  margin-left: 5px;
+}
+
+p {
+  text-align: center;
+  color : black;
+}
+
+
+.s2 {
+  height: 80vh;
+}
+
+.foot {
+  
+}
+
+
+.footer {
+  padding: 15px;
+  background: #C4C4C4;
+}
+
+#contact {
+  padding: 5px;
+  text-align: center
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
+}
