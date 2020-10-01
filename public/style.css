@@ -3,6 +3,10 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
+html {
+   scroll-behavior: smooth;
+}
+
 body * {
   transition: 0.2s;
 }
